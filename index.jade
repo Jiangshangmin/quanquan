@@ -1,0 +1,26 @@
+doctype
+html
+  head
+    title QuanQuan Tu
+    meta(charset='utf-8')
+    link(href='lib/css/tipsy.css', rel='stylesheet')
+    link(href='lib/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    link(href='style.css', rel='stylesheet')
+
+body
+  header
+    .content
+      h1 QuanQuan Tu
+
+  section#vis
+    .container
+      #loading Loading ...
+      .col-xs-12.chart-area
+        svg.chart
+  
+  script('src=lib/javascripts/colorbrewer.js')
+  script('src=lib/javascripts/d3.v2.min.js')
+  script('src=lib/javascripts/jquery.min.js')
+  script('src=lib/javascripts/jquery.tipsy.js')
+  script('src=lib/bootstrap/js/bootstrap.min.js')
+  script('src=vis.js')
